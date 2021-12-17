@@ -1,0 +1,273 @@
+/* GERAL */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*FIM DO GERAL*/
+/*INICIAL*/
+.inicial {
+  padding-top: 40px;
+  background-image: url(img/bg.jpg);
+  height: 500px;
+}
+
+.titulo-principal div {
+  flex: 1 1 900px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.1em;
+}
+
+.titulo-principal div h1 {
+  font-size: 3.5em;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.1em;
+}
+
+.titulo-principal div h2 {
+  font-size: 1.75em;
+  letter-spacing: 0.1em;
+  color: white;
+  margin-bottom: 1.5em;
+}
+
+.titulo-principal div button {
+  border: none;
+  border-radius: 5%;
+  background-color: #dc143c;
+  padding: 1em;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .inicial {
+    height: 370px;
+  }
+  .titulo-principal div h1 {
+    font-size: 2.5em;
+  }
+  .titulo-principal div h2 {
+    font-size: 1.5em;
+  }
+  .titulo-principal div button a {
+    font-size: 0.75em;
+  }
+}
+
+.titulo-principal div button a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.titulo-principal img {
+  flex: 0 2 100px;
+  margin: 0 auto;
+}
+/* FIM INICIAL*/
+/* PEÇAS GERAL*/
+.pecas-geral {
+  padding-top: 6.5em;
+  background-image: url("img/bgaux.jpg");
+}
+.titulo-secundario div {
+  text-align: center;
+  color: white;
+}
+
+.conteudo-pecas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.titulo-secundario div h2 {
+  flex: 1 1 960px;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.titulo-secundario div h1 {
+  flex: 1 1 960px;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 0.25em;
+}
+
+.titulo-secundario div p {
+  flex: 0 1 587px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+.titulo-secundario img {
+  margin: 0 auto;
+}
+/*FIM PEÇAS GERAL*/
+/* PEÇAS INDIVIDUAL*/
+.box-pecas {
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-width: 50em) {
+  .box-pecas {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .peca-item {
+    min-height: 24em;
+  }
+}
+
+.peca-item {
+  flex: 1 0 300px;
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid white;
+  min-height: 15em;
+  align-items: center;
+}
+.peca-item img {
+  flex: 0 2 0;
+}
+
+.peca-item div {
+  flex: 1 1 500px;
+}
+.peca-item div h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.peca-item div h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 1.75em;
+}
+
+.peca-item div p {
+  font-size: 0.875em;
+  color: white;
+}
+.peca-item div h3 {
+  text-transform: uppercase;
+  color: #dc143c;
+  font-weight: bold;
+}
+/*FIM PEÇAS INDIVIDUAL*/
+/*MONTAGEM*/
+.tabuleiro_montagem {
+  background-image: url("img/bgaux.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.box_tabuleiro img {
+  flex: 0 1 400px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.texto_tabuleiro {
+  flex: 1 1 300px;
+  text-align: start;
+  color: white;
+  flex-direction: column;
+}
+
+.texto_tabuleiro button {
+  align-self: center;
+  border: 4px solid #df3557;
+  border-radius: 5%;
+  background-color: #dc143c;
+  padding: 1em;
+  cursor: pointer;
+  margin-bottom: 0.5em;
+}
+.texto_tabuleiro button a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.texto_tabuleiro h2 {
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+.texto_tabuleiro h1 {
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.1em;
+}
+
+.texto_tabuleiro ol {
+  align-self: center;
+  width: 75%;
+}
+
+.texto_tabuleiro ol li h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #7fffd4;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+  text-decoration: underline;
+}
+.exercicio {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-style: italic;
+}
+
+@media (max-width: 50em) {
+  .tabuleiro_montagem {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .texto_tabuleiro ol {
+    text-align: center;
+  }
+  .texto_tabuleiro {
+    flex-basis: 900px;
+  }
+  .texto_tabuleiro h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .texto_tabuleiro h2 {
+    text-align: center;
+    font-size: 0.75em;
+  }
+}
