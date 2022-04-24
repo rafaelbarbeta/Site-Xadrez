@@ -11,7 +11,7 @@ Para todos meus colegas da Beets, principalmente os membros novos, sintam-se liv
 <li>Conteúdo bem pequeno, precisa expandir bem mais, por exemplo falando de boas estratégias para começar o jogo e coisas desse tipo (alías, não se preocupe muito com o conteúdo em si, mas sim com a formatação do website). Seria bom colocar isso em uma html separado e linkar com o index.html através da navegação a ser colocada conforme o item anterior.</li>
 </ol>
 
-Por fim, eu talvez adicione mais coisas nesse arquivo no futuro, mas vocês também pode fazé-lo! Pra quem nunca mexeu com git e github (tipo eu rsrsrs), tem um tutorial bem bacana nesse link: https://www.youtube.com/watch?v=2alg7MQ6_sI
+Por fim, eu talvez adicione mais coisas nesse arquivo no futuro, mas vocês também pode fazé-lo! Pra quem nunca mexeu com git e github, tem um tutorial bem bacana nesse link: https://www.youtube.com/watch?v=2alg7MQ6_sI
 
 
 *Todas as imagens do projeto eu tirei do site pixabay.com , um banco de imagens Royalty Free. Por questões legais, todas as imagens que vocês quiserem adicionar tem que ser tiradas desse site ou de um meio que não precise pagar.*
